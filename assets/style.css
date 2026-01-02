@@ -1,0 +1,93 @@
+/* Layout */
+.page-wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+/* Typography */
+body {
+  line-height: 1.65;
+}
+
+p {
+  margin: 0 0 1.1em 0;
+}
+
+h1 {
+  margin-bottom: 0.4em;
+}
+
+h2, h3 {
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+
+/* Lists */
+ul {
+  margin: 0.8em 0 1.4em 1.4em;
+}
+
+li {
+  margin-bottom: 0.9em;
+}
+
+/* Details / collapsible sections */
+details {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin-bottom: 18px;
+  background: #fafafa;
+}
+
+details[open] {
+  background: #ffffff;
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 8px;
+}
+
+details[open] summary::before {
+  content: "▾";
+}
+
+/* Jump menu */
+.jump {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin: 24px 0;
+  background: #fafafa;
+}
+
+.jump ul {
+  margin: 0.6em 0 0 1.2em;
+}
+
+.jump li {
+  margin-bottom: 0.4em;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</div>
